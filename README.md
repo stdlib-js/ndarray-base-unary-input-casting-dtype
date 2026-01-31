@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import unaryInputCastingDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@esm/index.mjs';
+import unaryInputCastingDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@v0.1.0-esm/index.mjs';
 ```
 
 #### unaryInputCastingDataType( idtype, odtype, policy )
@@ -113,7 +113,7 @@ import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@esm/index.m
 import nCartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-n-cartesian-product@esm/index.mjs';
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import inputCastingDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@esm/index.mjs';
+import inputCastingDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@v0.1.0-esm/index.mjs';
 
 // Get the list of real-valued data types:
 var dt = dtypes( 'real' );
