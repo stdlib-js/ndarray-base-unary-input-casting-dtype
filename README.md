@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import unaryInputCastingDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-unary-input-casting-dtype/tags). For example,
+
+```javascript
 import unaryInputCastingDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@v0.1.1-deno/mod.js';
 ```
 
@@ -108,7 +113,7 @@ import unzip from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-unzip@deno/mod.js
 import nCartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-n-cartesian-product@deno/mod.js';
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@deno/mod.js';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@deno/mod.js';
-import inputCastingDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@v0.1.1-deno/mod.js';
+import inputCastingDataType from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@deno/mod.js';
 
 // Get the list of real-valued data types:
 var dt = dtypes( 'real' );
