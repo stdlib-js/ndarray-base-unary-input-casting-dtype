@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-unaryInputCastingDataType = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@umd/browser.js' )
+unaryInputCastingDataType = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@v0.1.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var unaryInputCastingDataType = require( 'path/to/vendor/umd/ndarray-base-unary-
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@v0.1.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -135,7 +135,7 @@ dt = unaryInputCastingDataType( 'int32', 'float64', 'complex128' );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-n-cartesian-product@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-unary-input-casting-dtype@v0.1.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
