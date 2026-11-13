@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,25 +16,27 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@main/index.d.ts"/>
+
+import { DataType, InputCastingPolicy } from '@stdlib/types/ndarray';
 
 /**
-* Resolve the input ndarray casting data type for a unary function.
+* Resolves the input ndarray casting data type for a unary function.
 *
-* @module @stdlib/ndarray-base-unary-input-casting-dtype
+* @param idtype - input ndarray data type
+* @param odtype - output ndarray data type
+* @param policy - input ndarray casting data type policy
+* @returns input ndarray casting data type
 *
 * @example
-* var resolve = require( '@stdlib/ndarray-base-unary-input-casting-dtype' );
-*
-* var dt = resolve( 'float64', 'float64', 'none' );
+* var dt = inputCastingDataType( 'float64', 'float64', 'none' );
 * // returns <string>
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function inputCastingDataType( idtype: DataType, odtype: DataType, policy: InputCastingPolicy | DataType ): DataType;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = inputCastingDataType;
